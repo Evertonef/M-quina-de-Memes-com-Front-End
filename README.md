@@ -4,8 +4,11 @@
 
 #Aprendendo a criar seu próprio gerador de memes com Javascript, CSS e HTML.
 
-### Live AoVivo  16/11 as 19hr - https://www.youtube.com/watch?v=qJAUZ9soSCY.
-###              17/11 as 19hr -
+### Live Ao vivo  16/11 as 19hrs - https://www.youtube.com/watch?v=qJAUZ9soSCY.
+aprendemos a fazer HTML e CSS.
+
+### Live Ao vivo  17/11 as 19hrs - https://www.youtube.com/watch?v=FXl-XgGrVLE&ab_channel=DIO
+Aprendemos a Fazer as Validações no JavaScript. 
 
 
 
