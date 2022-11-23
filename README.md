@@ -21,6 +21,7 @@ Aprendemos a Fazer as Validações no JavaScript.
     - Borda é a linha delimitadora da caixa; "Border"
     - Preenchimento é a distancia entre a borda e o conteúdo; "Pedding"
     - Conteúdo é o conteúdo dentro da caixa ; "Content"
+
     
     pegar paginas da web para treinar esse conceito. 
     buscar coisas em W3Schools
@@ -29,11 +30,23 @@ Aprendemos a Fazer as Validações no JavaScript.
     são caixas dentro de caixas .
     se tudo é uma caixa, todas então tem que esta dentro de uma caixa.
     Sempre criar um container para nada ficar flutuando.
+
+     HTML = Demarcação;
+    CSS = Estilização;
+    JavaScript =  Inteligente / Dinamismo;
+
+    Paradigima de Programação (Modular, Orientado a Objetos,Funcional).
+    o ideal é começar no paradigma "Funcional";
+    exemplos de JavaScript fora da Programação "Torradeira", "Liquidificador", "Cafeteira"
+    eles fazem uma unica coisa= tem 1 funcionalidade, Função bem definida.
+    quando ela faz varias funções temos um problema, se caso ela quebrar que danifica todo o processo.
+    # Sempre é bom ter a ROTINA para elaborar o JS.
+    # Sempre Desenhar a Logica antes de começar a Programar
+    # S.O.L.I.D. Boas Praticas.
+    # Aprender conceito de DOM.
     
-    
-    projeto e fazer o meme elaborado e marcar essa # 
-    tem que ser engraçado e add mais funções no projeto 
-    entregar ate Domingo.
+    #MáquinaDeMemes
+   
 
 
 
