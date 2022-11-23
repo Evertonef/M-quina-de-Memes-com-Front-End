@@ -1,17 +1,38 @@
+                /* TAG's */
 body{
-    background: rgb(0, 0, 0);
+    background: rgba(238, 8, 8, 0.233);
   }
+
+textarea{
+    width: 100%;
+    resize:vertical;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    overflow: hidden;
+    height: 35px;
+    resize: both;
+    outline: none;
   
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 20px;
+  }
+
+                /* CLASS's */
+
   .container{
-    height: 100%;
+    height: 30%;
     width: 100%;
     color: white;
+    margin-top: 2%;
   
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
   }
-  
+
   .logo{
     display: flex;
     align-items: center;
@@ -24,15 +45,6 @@ body{
     display: flex;
     flex-direction: column;
     width: 500px;
-  }
-  
-  #display-image{
-    width: 100%;
-    height: 500px;
-    /* background-image: url('/pitures/chloe.jpg'); */
-    background-position: center;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
   }
   
   .app{
@@ -53,40 +65,70 @@ body{
     width: 100%;
     height: 100px;
   }
-  
-  
-  textarea{
-    width: 100%;
-    resize:vertical;
-    border: none;
-    padding: 5px;
-    text-align: center;
-    overflow: hidden;
-    height: 35px;
-  
-    outline: none;
-  
-    font-weight: 600;
-    font-family: sans-serif;
-    font-size: 20px;
+
+  .text-box{
+    background: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    align-content: center;
+    font-family: 'Stencil Std', 'fantasy';
   }
+
   
+                  /* ID's */
+
   #btn-download{
     width: 100%;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bolder;
     padding:10px;
-    background-color: orange;
+    background-color: rgba(255, 166, 0, 0.432);
+    border-radius: 30px;
+    background-image: -webkit-linear-gradient(left, rgba(26, 188, 156, 0.6), rgba(26, 188, 156, 0.6) 5%,
+    #1abc9c 5%, #1abc9c 10%, rgba(26, 188, 156, 0.6) 10%, rgba(26, 188, 156, 0.6) 15%, #1abc9c 15%,
+    #1abc9c 20%, rgba(26, 188, 156, 0.6) 20%, rgba(26, 188, 156, 0.6) 25%, #1abc9c 25%, #1abc9c 30%,
+    rgba(26, 188, 156, 0.6) 30%, rgba(26, 188, 156, 0.6) 35%, #1abc9c 35%, #1abc9c 40%, rgba(26, 188, 156, 0.6) 40%,
+    rgba(26, 188, 156, 0.6) 45%, #1abc9c 45%, #1abc9c 50%, rgba(26, 188, 156, 0.6) 50%, rgba(26, 188, 156, 0.6) 55%,
+    #1abc9c 55%, #1abc9c 60%, rgba(26, 188, 156, 0.6) 60%, rgba(26, 188, 156, 0.6) 65%, #1abc9c 65%, #1abc9c 70%,
+    rgba(26, 188, 156, 0.6) 70%, rgba(26, 188, 156, 0.6) 75%, #1abc9c 75%, #1abc9c 80%, rgba(26, 188, 156, 0.6) 80%,
+    rgba(26, 188, 156, 0.6) 85%, #1abc9c 85%, #1abc9c 90%, rgba(26, 188, 156, 0.6) 90%, rgba(26, 188, 156, 0.6) 95%,
+    #1abc9c 95%, #1abc9c 100%);
+    background-image: linear-gradient(to right, rgba(26, 188, 156, 0.6), rgba(26, 188, 156, 0.6) 5%,
+    #1abc9c 5%, #1abc9c 10%, rgba(26, 188, 156, 0.6) 10%, rgba(26, 188, 156, 0.6) 15%, #1abc9c 15%,
+    #1abc9c 20%, rgba(26, 188, 156, 0.6) 20%, rgba(26, 188, 156, 0.6) 25%, #1abc9c 25%, #1abc9c 30%,
+    rgba(26, 188, 156, 0.6) 30%, rgba(26, 188, 156, 0.6) 35%, #1abc9c 35%, #1abc9c 40%, rgba(26, 188, 156, 0.6) 40%,
+    rgba(26, 188, 156, 0.6) 45%, #1abc9c 45%, #1abc9c 50%, rgba(26, 188, 156, 0.6) 50%, rgba(26, 188, 156, 0.6) 55%,
+    #1abc9c 55%, #1abc9c 60%, rgba(26, 188, 156, 0.6) 60%, rgba(26, 188, 156, 0.6) 65%, #1abc9c 65%, #1abc9c 70%,
+    rgba(26, 188, 156, 0.6) 70%, rgba(26, 188, 156, 0.6) 75%, #1abc9c 75%, #1abc9c 80%, rgba(26, 188, 156, 0.6) 80%,
+    rgba(26, 188, 156, 0.6) 85%, #1abc9c 85%, #1abc9c 90%, rgba(26, 188, 156, 0.6) 90%, rgba(26, 188, 156, 0.6) 95%,
+    #1abc9c 95%, #1abc9c 100%);
+    color: #ffffff;
+    cursor: pointer;
+     background-size: 100%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+  }
+  #btn-download:hover {
+    background-position: 100px;
   }
   
-  .text-box{
-    background: black;
-    color:white;
-  }
-  
+
   #meme-list{
     width: 100%;
     font-size: large;
     font-family: sans-serif;
-    color: black;
+    color: rgb(211, 20, 20);
+  }
+  
+  #display-image{
+    width: 100%;
+    height: 450px;
+    /* background-image: url('/pitures/chloe.jpg'); */
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+
+  #apple{
+    width: 70px;
+    height: 70px;
   }

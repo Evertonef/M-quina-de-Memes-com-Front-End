@@ -30,7 +30,7 @@ Aprendemos a Fazer as Validações no JavaScript.
     se tudo é uma caixa, todas então tem que esta dentro de uma caixa.
     Sempre criar um container para nada ficar flutuando.
     
-    #MáquinaDeMemes
+    
     projeto e fazer o meme elaborado e marcar essa # 
     tem que ser engraçado e add mais funções no projeto 
     entregar ate Domingo.
